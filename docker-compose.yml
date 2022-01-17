@@ -1,0 +1,31 @@
+version: '3.5'
+
+services:
+  docker-react-app-template:
+    container_name: docker-react-app-template
+    build:
+      context: sentiment-ui
+    ports:
+      - '3003:3003'
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - api-server
+  api-server:
+    build:
+      context: twitter-historical
+    container_name: twitter-historical
+    image: twitter-historical
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+      - MONGO_URL=mongodb://host.docker.internal:27017/tweets
+    networks:
+      - app-network
+    ports:
+      - '3001:3001'
+
+networks:
+  app-network:
+    driver: bridge
