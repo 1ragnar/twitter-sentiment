@@ -1,0 +1,17 @@
+{
+  "_id": {
+    "type": "String"
+  },
+  "neg": {
+    "type": "Number"
+  },
+  "neu": {
+    "type": "Number"
+  },
+  "pos": {
+    "type": "Number"
+  },
+  "compound": {
+    "type": "Number"
+  }
+}

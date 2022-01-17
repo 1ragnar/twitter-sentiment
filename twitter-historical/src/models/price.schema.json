@@ -1,0 +1,29 @@
+{
+  "time": {
+    "type": "Date"
+  },
+  "high": {
+    "type": "number"
+  },
+  "low": {
+    "type": "number"
+  },
+  "open": {
+    "type": "number"
+  },
+  "volumefrom": {
+    "type": "number"
+  },
+  "volumeto": {
+    "type": "number"
+  },
+  "close": {
+    "type": "number"
+  },
+  "conversionType": {
+    "type": "string"
+  },
+  "conversionSymbol": {
+    "type": "string"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "neg": {
+    "type": "Number"
+  },
+  "neu": {
+    "type": "Number"
+  },
+  "pos": {
+    "type": "Number"
+  },
+  "compound": {
+    "type": "Number"
+  },
+  "tweet_created_at": {
+    "type": "Date"
+  },
+  "tweet_id": {
+    "type": "string"
+  }
+}

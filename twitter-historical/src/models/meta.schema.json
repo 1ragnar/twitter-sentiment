@@ -1,0 +1,11 @@
+{
+  "newest_id": {
+    "type": "string"
+  },
+  "oldest_id": {
+    "type": "string"
+  },
+  "next_token": {
+    "type": "string"
+  }
+}

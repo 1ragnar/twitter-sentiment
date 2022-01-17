@@ -1,0 +1,53 @@
+{
+  "text": {
+    "type": "String"
+  },
+  "id": {
+    "type": "String"
+  },
+  "public_metrics": {
+    "retweet_count": {
+      "type": "Number"
+    },
+    "reply_count": {
+      "type": "Number"
+    },
+    "like_count": {
+      "type": "Number"
+    },
+    "quote_count": {
+      "type": "Number"
+    }
+  },
+  "author": {
+    "username": {
+      "type": "String"
+    },
+    "id": {
+      "type": "String"
+    },
+    "created_at": {
+      "type": "Date"
+    },
+    "name": {
+      "type": "String"
+    },
+    "public_metrics": {
+      "followers_count": {
+        "type": "Number"
+      },
+      "following_count": {
+        "type": "Number"
+      },
+      "tweet_count": {
+        "type": "Number"
+      },
+      "listed_count": {
+        "type": "Number"
+      }
+    }
+  },
+  "created_at": {
+    "type": "Date"
+  }
+}
