@@ -21,9 +21,9 @@ TWITTER_API_KEY_SECRET=vcj0M3LS5nZa9A6haq2rBFsuHYo95iNqeY6MXPru2DtzA05KzV
 TWITTER_BEARER_TOKKEN=AAAAAAAAAAAAAAAAAAAAAGcdVgEAAAAAMNsyPTmJQ4SxIZefib61wTQWsxA%3DdkNnT1GXn1zYVDoJRsFfwlUdSgvGueMY9n2rukTCiUUwGurMww
 
 
-After that run twitter-historical service with command 'npm run dev'. It will run also mongo db on url: 'mongodb://localhost:27017/tweets'
+After that position in twitter-historical folder, run command 'npm i' in twitter-historical service and then run service with command 'npm run dev'. It will run also mongo db on url: 'mongodb://localhost:27017/tweets'
 After service is runned it is necessary to import mongodb collections prices.csv and dailysentiments.csv from where we will collect data for ui.
 Easiest way to do it is to use MongoDB Compass. 
 
-Next step is to run sentiment-ui service with command: 'npm start'. Then in browser open address localhost:3000 to see ui
+Next step is to position in sentiment-ui folder,run command 'npm i' in sentiment-ui service and run serivce with command: 'npm start'. Then in browser open address localhost:3000 to see ui
 
